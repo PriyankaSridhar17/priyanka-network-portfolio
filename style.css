@@ -1425,3 +1425,44 @@ a.contact-item:hover {
     }
 
 }
+/* =====================================
+   PROJECT GITHUB BUTTON
+===================================== */
+
+.project-github-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 14px 24px;
+
+    background-color: #5eead4;
+    color: #071015;
+
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+
+    border: 1px solid #5eead4;
+    border-radius: 6px;
+
+    transition: all 0.3s ease;
+}
+
+.project-github-link:hover {
+    background-color: transparent;
+    color: #5eead4;
+    transform: translateY(-2px);
+}
+
+.project-github-link:focus-visible {
+    outline: 2px solid #5eead4;
+    outline-offset: 4px;
+}
+
+@media (max-width: 480px) {
+    .project-github-link {
+        width: 100%;
+        padding: 14px 18px;
+    }
+}
